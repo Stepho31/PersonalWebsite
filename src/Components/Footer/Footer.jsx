@@ -1,15 +1,16 @@
-import React from 'react'
-import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import React from 'react';
+import './Footer.css';
+import footer_logo from '../../assets/footer_logo.jpg';
+import user_icon from '../../assets/user_icon.svg';
 
 const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-top">
         <div className="footer-top-left">
-            <img src={footer_logo} alt="" />
-            <p>I am a fullstack developer from, Texas with 2 years of experience in companies like UNOS and Firet Republic Bank.</p>
+            {/* Adding inline style to decrease the size of the footer logo */}
+            <img src={footer_logo} alt="Footer Logo" style={{ maxWidth: '150px', width: '100%', height: 'auto' }} />
+            <p>I am a Full-Stack developer from, Texas with 2 years of experience in companies like UNOS and Firet Republic Bank.</p>
         </div>
         <div className="footer-top-right">
             <div className="footer-email-input">
@@ -32,4 +33,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

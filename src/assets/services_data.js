@@ -2,7 +2,7 @@ const Services_Data = [
     {
         s_no: "01",
         s_name: "Web Development",
-        s_desc: "Specializing in full-stack development using modern frameworks like React, Next.js, and HTML/CSS to build responsive and dynamic websites."
+        s_desc: "Specializing in Full-Stack development using modern frameworks like React, Next.js, and HTML/CSS to build responsive and dynamic websites."
     },
     {
         s_no: "02",
