@@ -90,6 +90,19 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+.linkedin-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Removes underline from link */
+    color: inherit;
+  }
+  
+  .linkedin-icon {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
 @media(max-width:768px){
     .contact{
         gap: 40px;
