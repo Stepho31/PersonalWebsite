@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-top-left">
           {/* Adding inline style to decrease the size of the footer logo */}
           <img src={footer_logo} alt="Footer Logo" style={{ maxWidth: '150px', width: '100%', height: 'auto' }} />
-          <p>I am a Full-Stack developer from Texas with 2 years of experience in companies like UNOS and First Republic Bank.</p>
+          <p>I am a Full-Stack developer from Texas with 5 years of experience in companies like UNOS and First Republic Bank.</p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">

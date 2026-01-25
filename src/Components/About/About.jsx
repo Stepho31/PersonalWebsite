@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import profile_img from '../../assets/about_profile.jpg';
+import react_logo from '../../assets/react_logo.png';
 import swiftui_logo from '../../assets/swift.png';
 import dotnet_logo from '../../assets/net.png';
 import sql_logo from '../../assets/SQL.png';
@@ -21,10 +22,14 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>I am a skilled Software Developer with a strong background in creating innovative solutions across various industries. My expertise spans a wide range of technologies, including SwiftUI, .NET, SQL, and Python, allowing me to deliver high-quality applications that meet business goals.</p>
+            <p>I am a skilled Software Developer with a strong background in creating innovative solutions across various industries. My expertise spans a wide range of technologies, including React, PHP, SwiftUI, .NET, SQL, and Python, allowing me to deliver high-quality applications that meet business goals.</p>
           </div>
           {/* Replacing progress bars with logos */}
           <div className="about-skills">
+          <div className="about-skill">
+              <img src={react_logo} alt="SwiftUI Logo" style={{ width: '50px', height: 'auto' }} />
+              <p>React</p>
+            </div>
             <div className="about-skill">
               <img src={swiftui_logo} alt="SwiftUI Logo" style={{ width: '50px', height: 'auto' }} />
               <p>SwiftUI</p>
@@ -50,17 +55,17 @@ const About = () => {
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-            <h1>2+</h1>
+            <h1>5</h1>
             <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-            <h1>10+</h1>
+            <h1>15+</h1>
             <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achievement">
-            <h1>8+</h1>
+            <h1>12+</h1>
             <p>HAPPY CLIENTS</p>
         </div>
       </div>
