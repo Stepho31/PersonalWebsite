@@ -3,6 +3,7 @@ import './About.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import profile_img from '../../assets/about_profile.jpg';
 import react_logo from '../../assets/react_logo.png';
+import php_logo from '../../assets/php_logo.png';
 import swiftui_logo from '../../assets/swift.png';
 import dotnet_logo from '../../assets/net.png';
 import sql_logo from '../../assets/SQL.png';
@@ -27,8 +28,12 @@ const About = () => {
           {/* Replacing progress bars with logos */}
           <div className="about-skills">
           <div className="about-skill">
-              <img src={react_logo} alt="SwiftUI Logo" style={{ width: '50px', height: 'auto' }} />
+              <img src={react_logo} alt="React Logo" style={{ width: '50px', height: 'auto' }} />
               <p>React</p>
+            </div>
+            <div className="about-skill">
+              <img src={php_logo} alt="PHP Logo" style={{ width: '50px', height: 'auto' }} />
+              <p>PHP</p>
             </div>
             <div className="about-skill">
               <img src={swiftui_logo} alt="SwiftUI Logo" style={{ width: '50px', height: 'auto' }} />
