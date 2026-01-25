@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
-import profile_img from '../../assets/about_profile.imgg';
+import profile_img from '../../assets/about_profile.img';
 import swiftui_logo from '../../assets/swift.png';
 import dotnet_logo from '../../assets/net.png';
 import sql_logo from '../../assets/SQL.png';
