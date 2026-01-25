@@ -10,7 +10,7 @@ const mywork_data = [
         w_no: 1,
         w_name: "Website Portfolio",
         w_img: project1_img,
-        w_link: "https://github.com/Stepho31/PersonalWebsit",
+        w_link: "https://github.com/Stepho31/PersonalWebsite",
         w_languages: "HTML, CSS, JavaScript"
     },
     {
