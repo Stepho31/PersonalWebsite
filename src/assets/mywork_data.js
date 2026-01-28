@@ -4,8 +4,16 @@ import project3_img from '../assets/project_3.jpg';
 import project4_img from '../assets/project_4.jpg';
 import project5_img from '../assets/project_5.jpg';
 import project6_img from '../assets/project_6.jpg';
+import folloly_img from '../assets/folloly_img.png'
 
 const mywork_data = [
+      {
+        w_no: 7,
+        w_name: "Followly",
+        w_img: folloly_img,
+        w_link: "https://github.com/Stepho31/Followly",
+        w_languages: "HTML, Python"
+    },
     {
         w_no: 1,
         w_name: "Website Portfolio",
